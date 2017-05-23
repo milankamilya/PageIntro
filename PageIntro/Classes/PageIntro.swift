@@ -7,7 +7,7 @@
 //
 
 import UIKit
-public class PageIntro: UIView {
+public class PageIntro: UIView, CAAnimationDelegate {
     
     //MARK:- Public Properties
     public var arrayOfItem: [PageIntroItem]?
@@ -154,7 +154,7 @@ public class PageIntro: UIView {
             animation.isRemovedOnCompletion = false
             animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
             
-            layer.add(animation, forKey: nil)
+            layer.add(animation, forKey: "zoom")
             
         }
     }
@@ -305,12 +305,9 @@ public class PageIntro: UIView {
         return (transX,transY)
         
     }
-    
-}
-
-//MARK:- 
-extension PageIntro : CAAnimationDelegate {
-    func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+    //TODO:- DELEGATE OF LAST ANIMATION DOESN"T GET CALLED.
+    public func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         removeFromSuperview()
     }
 }
+

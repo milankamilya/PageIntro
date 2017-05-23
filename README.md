@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/PageIntro.svg?style=flat)](http://cocoapods.org/pods/PageIntro)
 [![Platform](https://img.shields.io/cocoapods/p/PageIntro.svg?style=flat)](http://cocoapods.org/pods/PageIntro)
 
+![Sample](https://raw.githubusercontent.com/milankamilya/PageIntro/master/Example.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

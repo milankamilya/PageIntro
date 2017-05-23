@@ -14,9 +14,13 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8CC379331ED4180000432290 /* PageIntro1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC379311ED4180000432290 /* PageIntro1.xib */; };
-		8CC379341ED4180000432290 /* PageIntro2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC379321ED4180000432290 /* PageIntro2.xib */; };
 		8CD925591ED449C500882BAE /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD925581ED449C500882BAE /* ViewExtension.swift */; };
+		8CD9255C1ED475FF00882BAE /* PageIntro1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9255A1ED475FF00882BAE /* PageIntro1.xib */; };
+		8CD9255D1ED475FF00882BAE /* PageIntro2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9255B1ED475FF00882BAE /* PageIntro2.xib */; };
+		8CD9255F1ED4761500882BAE /* PageIntro3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9255E1ED4761500882BAE /* PageIntro3.xib */; };
+		8CD925611ED4762400882BAE /* PageIntro4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD925601ED4762400882BAE /* PageIntro4.xib */; };
+		8CD925631ED4763200882BAE /* PageIntro5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD925621ED4763200882BAE /* PageIntro5.xib */; };
+		8CD925651ED4763F00882BAE /* PageIntro6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD925641ED4763F00882BAE /* PageIntro6.xib */; };
 		FD43B6842B3C63E337DDC6C8 /* Pods_PageIntro_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1431E505A821C514C4D2DBC0 /* Pods_PageIntro_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +50,13 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60CDC39C836BFBC38C402B8D /* Pods_PageIntro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageIntro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EEB16EBF9E8D29FFEDAAE0 /* Pods-PageIntro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageIntro_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageIntro_Tests/Pods-PageIntro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8CC379311ED4180000432290 /* PageIntro1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PageIntro1.xib; path = ../../../../../Downloads/PageIntro1.xib; sourceTree = "<group>"; };
-		8CC379321ED4180000432290 /* PageIntro2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PageIntro2.xib; path = ../../../../../Downloads/PageIntro2.xib; sourceTree = "<group>"; };
 		8CD925581ED449C500882BAE /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		8CD9255A1ED475FF00882BAE /* PageIntro1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro1.xib; sourceTree = "<group>"; };
+		8CD9255B1ED475FF00882BAE /* PageIntro2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro2.xib; sourceTree = "<group>"; };
+		8CD9255E1ED4761500882BAE /* PageIntro3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro3.xib; sourceTree = "<group>"; };
+		8CD925601ED4762400882BAE /* PageIntro4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro4.xib; sourceTree = "<group>"; };
+		8CD925621ED4763200882BAE /* PageIntro5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro5.xib; sourceTree = "<group>"; };
+		8CD925641ED4763F00882BAE /* PageIntro6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageIntro6.xib; sourceTree = "<group>"; };
 		92FE98532DA89DE394CFECF2 /* Pods-PageIntro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageIntro_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageIntro_Tests/Pods-PageIntro_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0A4C250680648E932C20E74 /* Pods-PageIntro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageIntro_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageIntro_Example/Pods-PageIntro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3ABD550EFE83A80AF1F2BE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -150,8 +158,12 @@
 		8CC379301ED417EA00432290 /* IntroViews */ = {
 			isa = PBXGroup;
 			children = (
-				8CC379311ED4180000432290 /* PageIntro1.xib */,
-				8CC379321ED4180000432290 /* PageIntro2.xib */,
+				8CD9255A1ED475FF00882BAE /* PageIntro1.xib */,
+				8CD9255B1ED475FF00882BAE /* PageIntro2.xib */,
+				8CD9255E1ED4761500882BAE /* PageIntro3.xib */,
+				8CD925601ED4762400882BAE /* PageIntro4.xib */,
+				8CD925621ED4763200882BAE /* PageIntro5.xib */,
+				8CD925641ED4763F00882BAE /* PageIntro6.xib */,
 			);
 			name = IntroViews;
 			sourceTree = "<group>";
@@ -266,9 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				8CC379331ED4180000432290 /* PageIntro1.xib in Resources */,
-				8CC379341ED4180000432290 /* PageIntro2.xib in Resources */,
+				8CD9255F1ED4761500882BAE /* PageIntro3.xib in Resources */,
+				8CD9255C1ED475FF00882BAE /* PageIntro1.xib in Resources */,
+				8CD9255D1ED475FF00882BAE /* PageIntro2.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				8CD925631ED4763200882BAE /* PageIntro5.xib in Resources */,
+				8CD925611ED4762400882BAE /* PageIntro4.xib in Resources */,
+				8CD925651ED4763F00882BAE /* PageIntro6.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

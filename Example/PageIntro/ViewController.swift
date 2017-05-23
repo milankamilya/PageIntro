@@ -41,26 +41,22 @@ class ViewController: UIViewController {
         
         
         var arrOfPageIntroItem = [PageIntroItem]()
-        for cirRect in arrOfRectForCircle {
+        for (index,cirRect) in arrOfRectForCircle.enumerated() {
             let item = PageIntroItem()
             item.rectForCircle = cirRect
+            
+            if index == 0 {
+                item.rectForContentView = CGRect(x: 65, y:55, width: 200, height: 100)
+            } else {
+                item.rectForContentView = CGRect(x: view.center.x - 75, y:view.center.y - 50, width: 150, height: 100)
+            }
+            
+            if let v = Bundle.main.loadNibNamed("PageIntro\(index+1)", owner: self, options: nil)?.first as? UIView {
+                item.contentView = v
+            }
+            
             arrOfPageIntroItem.append(item)
         }
-        
-        
-        let item1 = PageIntroItem()
-        item1.rectForCircle = CGRect(x: 40, y: 2, width: 90, height: 90)
-//        item1.rectForContentView = CGRect(x: 65, y:55, width: 200, height: 100)
-//        if let v = Bundle.main.loadNibNamed("PageIntro1", owner: self, options: nil)?.first as? UIView {
-//            item1.contentView = v
-//        }
-        
-        let item2 = PageIntroItem()
-        item2.rectForCircle = CGRect(x: 20, y: 200, width: 100, height: 100)
-//        item2.rectForContentView = CGRect(x: 20, y:250, width: 200, height: 100)
-//        if let v = Bundle.main.loadNibNamed("PageIntro2", owner: self, options: nil)?.first as? UIView {
-//            item2.contentView = v
-//        }
         
         pageIntro.arrayOfItem = arrOfPageIntroItem
         pageIntro.setup()

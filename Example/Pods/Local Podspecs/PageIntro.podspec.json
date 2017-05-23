@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of PageIntro.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/alejandro-menendez/PageIntro",
+  "homepage": "https://github.com/milankamilya/PageIntro",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "alejandro-menendez": "milan.kamilya@innofied.com"
+    "Milan Kamilya": "milankamilya@gmail.com"
   },
   "source": {
-    "git": "https://github.com/alejandro-menendez/PageIntro.git",
+    "git": "https://github.com/milankamilya/PageIntro.git",
     "tag": "0.1.0"
   },
   "platforms": {
