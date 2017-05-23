@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PageIntro_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVU-vu-Cwh">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="k7Y-ut-ipJ"/>
+                                    <tabBarItem systemItem="contacts" id="jXM-6s-K2e"/>
+                                    <tabBarItem systemItem="mostRecent" id="XZu-7e-XwE"/>
+                                    <tabBarItem systemItem="mostViewed" id="2Bm-ss-hHk"/>
+                                    <tabBarItem systemItem="search" id="UVW-Wr-k0O"/>
+                                </items>
+                                <color key="selectedImageTintColor" red="0.11593352980123017" green="0.33417068797655869" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UjC-Qa-GWC">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DA8-2c-AmM"/>
+                                    <constraint firstAttribute="width" constant="46" id="kzS-vN-5Xg"/>
+                                </constraints>
+                                <state key="normal" title="Menu"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lVU-vu-Cwh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FX5-MA-LaU"/>
+                            <constraint firstAttribute="trailing" secondItem="lVU-vu-Cwh" secondAttribute="trailing" id="IUY-Sl-Rix"/>
+                            <constraint firstItem="UjC-Qa-GWC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="TAi-pu-bgN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lVU-vu-Cwh" secondAttribute="bottom" id="X7a-An-PkW"/>
+                            <constraint firstItem="UjC-Qa-GWC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Za5-qt-nHO"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zjG-yA-L7q"/>
+                    <connections>
+                        <outlet property="menuButton" destination="UjC-Qa-GWC" id="GOr-cn-kTs"/>
+                        <outlet property="tabbar" destination="lVU-vu-Cwh" id="QUn-Oy-tzA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1134.375" y="105.63380281690141"/>
         </scene>
     </scenes>
 </document>

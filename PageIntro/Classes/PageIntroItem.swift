@@ -2,19 +2,23 @@
 //  PageIntroItem.swift
 //  octopull
 //
-//  Created by Zooft on 16/11/16.
-//  Copyright © 2016 Zooft. All rights reserved.
+//  Created by Milan Kamilya on 23/05/17.
+//  Copyright © 2017 Milan Kamilya. All rights reserved.
 //
 
 import UIKit
 
-class PageIntroItem {
+public class PageIntroItem {
     
-    var rectForCircle: CGRect?
-    var outerCircleRadius: CGFloat?
-    var innerCircleRadius: CGFloat?
+    public var rectForCircle: CGRect?
+    public var outerCircleRadius: CGFloat?
+    public var innerCircleRadius: CGFloat?
     
-    var rectForContentView: CGRect?
-    var contentView: UIView?
+    public var rectForContentView: CGRect?
+    public var contentView: UIView?
     
+    public init() {
+        innerCircleRadius = 35
+        outerCircleRadius = 43
+    }
 }

@@ -1,0 +1,6 @@
+framework module Pods_PageIntro_Example {
+  umbrella header "Pods-PageIntro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

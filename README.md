@@ -22,7 +22,7 @@ pod "PageIntro"
 
 ## Author
 
-alejandro-menendez, milan.kamilya@innofied.com
+Milan Kamilya, milankamilya@gmail.com
 
 ## License
 

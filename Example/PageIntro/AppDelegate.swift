@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PageIntro
 //
-//  Created by alejandro-menendez on 05/23/2017.
-//  Copyright (c) 2017 alejandro-menendez. All rights reserved.
+//  Created by Milan Kamilya on 23/05/17.
+//  Copyright © 2017 Milan Kamilya. All rights reserved.
 //
 
 import UIKit

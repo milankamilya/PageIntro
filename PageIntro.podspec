@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/alejandro-menendez/PageIntro'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alejandro-menendez' => 'milan.kamilya@innofied.com' }
-  s.source           = { :git => 'https://github.com/alejandro-menendez/PageIntro.git', :tag => s.version.to_s }
+  s.author           = { 'Milan Kamilya' => 'milankamilya@gmail.com' }
+  s.source           = { :git => 'https://github.com/milankamilya/PageIntro.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

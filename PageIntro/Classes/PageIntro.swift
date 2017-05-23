@@ -2,16 +2,15 @@
 //  PageIntro.swift
 //  octopull
 //
-//  Created by Milan Kamilya on 16/11/16.
+//  Created by Milan Kamilya on 23/05/17.
 //  Copyright © 2017 Milan Kamilya. All rights reserved.
 //
 
 import UIKit
-class PageIntro: UIView {
+public class PageIntro: UIView {
     
     //MARK:- Public Properties
-    var dimColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 0.25)
-    var arrayOfItem: [PageIntroItem]?
+    public var arrayOfItem: [PageIntroItem]?
     
     //MARK:- Private Properties
     private var outerBezierPath: UIBezierPath?
@@ -21,24 +20,26 @@ class PageIntro: UIView {
     private let innerMaskLayer = CAShapeLayer()
     
     private var currentItem: Int? = -1
-    
+
+    private let dimColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 0.25)
+
     
     let durationForContentView = 0.1
     let durationToMoveCircles = 0.2
     let durationToDisappear = 0.5
     
     //MARK:- Life-cycle Methods
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     //MARK:- Initial Setup
-    func setup() {
+    public func setup() {
         
         // TASKS:
         // 1. set background color to clear color
@@ -57,7 +58,7 @@ class PageIntro: UIView {
     
     //MARK:- Draw
     
-    func drawAll() {
+    private func drawAll() {
         
         guard let arrayOfItem = arrayOfItem else {
             return
@@ -81,9 +82,9 @@ class PageIntro: UIView {
         
     }
     
-    func setOuterLayer() {
+    private func setOuterLayer() {
         
-        let outerColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 0.0/255.0)
+        let outerColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 0.5)
         guard let outerBezierPath = outerBezierPath else {
             return
         }
@@ -95,7 +96,7 @@ class PageIntro: UIView {
         
     }
     
-    func setInnerLayer() {
+    private func setInnerLayer() {
         guard let innerBezierPath = innerBezierPath else {
             return
         }
@@ -105,7 +106,7 @@ class PageIntro: UIView {
         layer.mask = innerMaskLayer
     }
     
-    func blurBackground() {
+    private func blurBackground() {
         
         // 1. Take a background pic
         
